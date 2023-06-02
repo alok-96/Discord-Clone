@@ -1,0 +1,153 @@
+@media screen and (max-width:1393px) {
+    
+    .left-img{
+        display: none;
+    }
+
+    .middle-text{
+        align-items: flex-start;
+        text-align: start;
+        padding-left: 30px;
+    }
+
+    .feature-text{
+        flex-basis: 40%;
+    }
+}
+
+@media screen and (max-width:1393px) {
+    .toggle-btn{
+        display: block;
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+    .toggle-menu{
+        gap: 10px;
+    }
+
+    .hero-section .container{
+        margin-inline: 0px;
+    }
+    
+    .feature-text {
+        flex-basis: 48%;
+    }
+}
+
+@media screen and (max-width:1233px) {
+    .container{
+        margin-inline: 50px;
+    }
+}
+
+
+@media screen and (max-width:1057px) {
+    .buttons{
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .navigation{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .footer {
+        padding-inline: 0px;
+    }
+
+    .image{
+        display: none;
+    }
+
+    .text p{
+        padding-inline: 30px;
+    }
+    
+}
+
+@media screen and (max-width:767px) {
+
+    .main-content, .feature-area{
+        flex-direction: column;
+    }
+
+    .main-content{
+        padding-top: 0;
+
+    }
+
+    .middle-text{
+        margin-block: auto;
+        gap: 30px;
+    }
+
+    .middle-text p{
+        font-size: 16px;
+    }
+
+    .middle-text h1{
+        font-size: 3rem;
+    }
+
+    .feature-text p, .text p{
+        font-size: 18px;
+    }
+
+    .column h1, h1{
+        font-size: 2rem;
+    }
+
+    .right-img{
+        display: none;
+    }
+
+    .mobile-img{
+        display: block;
+        overflow: hidden;
+    }
+
+    .feature-area {
+        padding-block: 50px;
+    }
+
+    .footer-section{
+        padding-block: 50px;
+    }
+
+    .login-btn{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .feature-text p , .text p{
+        font-size: 15px;
+    }
+
+    h1, .column h1 {
+        font-size: 1.5rem;
+    }
+
+    .column{
+        padding-top: 40px;
+    }
+
+    .container{
+        margin-inline: 20px;
+    }
+
+    .nav-bar{
+        padding-inline: 20px;
+    }
+
+    .middle-text {
+        padding-left: 20px;
+    }
+}
