@@ -121,8 +121,16 @@
         padding-block: 50px;
     }
 
-    .login-btn{
+    .login-top-btn{
         display: none;
+    }
+
+    .text h1, .text p{
+        text-align: start;
+    }
+
+    .text h1{
+        padding-inline: 30px;
     }
 }
 
@@ -149,5 +157,9 @@
 
     .middle-text {
         padding-left: 20px;
+    }
+
+    .text h1, .text p {
+        padding-inline: 20px;
     }
 }
